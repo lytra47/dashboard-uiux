@@ -1,0 +1,25 @@
+.order-list-header {
+  top: -1px;
+  z-index: 100;
+  background-color: var(--white);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1.2rem 0.6rem;
+  box-shadow: var(--shadow-color) 0px 1px 2px;
+}
+.order-list-heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.order-list-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.order-list-buttons svg {
+  width: 14px;
+}

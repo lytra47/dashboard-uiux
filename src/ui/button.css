@@ -1,0 +1,158 @@
+.btn {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-color: var(--light-gray1);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease-in-out;
+}
+.btn svg {
+  width: 20px;
+  height: 20px;
+  color: inherit;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+.btn:hover {
+  background-color: var(--secondary-btn-shadow);
+}
+.btn:hover .tooltip {
+  visibility: visible;
+}
+/* sidebar buttons */
+.btn-sidebar {
+  color: var(--dark-gray2);
+}
+.sidebar-notification-dot {
+  position: absolute;
+  top: 2rem;
+  left: 44%;
+  background-color: var(--secondary-red);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+}
+
+.btn-active svg {
+  color: var(--primary-blue);
+  background-color: var(--primary-btn-shadow);
+}
+.btn-active {
+  background-color: var(--secondary-btn-shadow);
+}
+
+.btn-orders {
+  position: relative;
+  background-color: var(--light-gray1);
+  border: none;
+  border-radius: 30px;
+  padding: 4px 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease-in-out;
+}
+.btn-orders:hover {
+  background-color: var(--secondary-btn-shadow);
+}
+.btn-orders svg {
+  color: inherit;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+.btn-orders.btn-active svg {
+  color: var(--white);
+  /* background-color: transparent; */
+}
+.btn-orders.btn-active {
+  background-color: var(--primary-blue);
+}
+
+.btn-order-shipping {
+  background-color: var(--light-gray1);
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-order-shipping svg {
+  width: 30px;
+  height: 30px;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  background-color: var(--secondary-red);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 4px solid #ffcfd4;
+}
+.tooltip {
+  visibility: hidden;
+  width: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0px;
+  position: absolute;
+  z-index: 1000;
+  top: -2rem;
+}
+.tooltip:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.btn-order-options {
+  position: relative;
+
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease-in-out;
+}
+.btn-order-options:hover {
+  background-color: white;
+  color: var(--dark);
+}
+
+.btn-options {
+  width: 40px;
+  height: 40px;
+  background-color: var(--dark-gray2);
+  color: var(--primary-btn-shadow);
+}
+.btn-trash {
+  width: 40px;
+  height: 40px;
+  background-color: #f13653;
+  color: var(--white);
+}

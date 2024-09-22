@@ -1,0 +1,14 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo-icon {
+  width: 35px;
+  height: 35px;
+  color: #ea7d57;
+  transition: color 300ms ease-in-out;
+}
+.logo-icon:hover {
+  color: #0e159b;
+}

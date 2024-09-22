@@ -1,0 +1,23 @@
+.user-options img {
+  border-radius: 50%;
+  width: 37px;
+}
+.user-options {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.user-dot {
+  position: absolute;
+  top: -2px;
+  right: 12px;
+  background-color: var(--secondary-red);
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  border: 3px solid var(--white);
+}

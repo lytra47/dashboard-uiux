@@ -1,0 +1,19 @@
+.details-container {
+  background-color: var(--white);
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 2px;
+  box-shadow: var(--shadow-color) 0px 1px 2px;
+}
+
+.details-body {
+  border-top: 4px solid var(--primary-light-blue);
+  overflow: auto;
+  scrollbar-width: thin;
+  height: 78dvh;
+}
+
+.empty-info-container {
+  text-align: center;
+  margin-top: 4rem;
+}
