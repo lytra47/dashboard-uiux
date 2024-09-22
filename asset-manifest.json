@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboard-uiux/static/css/main.346accee.css",
+    "main.js": "/dashboard-uiux/static/js/main.30899b17.js",
+    "index.html": "/dashboard-uiux/index.html",
+    "main.346accee.css.map": "/dashboard-uiux/static/css/main.346accee.css.map",
+    "main.30899b17.js.map": "/dashboard-uiux/static/js/main.30899b17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.346accee.css",
+    "static/js/main.30899b17.js"
+  ]
+}
